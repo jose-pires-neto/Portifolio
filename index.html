@@ -8,10 +8,18 @@
     <link rel="stylesheet" href="menu.css" />
     <link rel="stylesheet" href="./skills.css" />
     <link rel="stylesheet" href="./about.css">
+    <link rel="stylesheet" href="./check_box.css">
     <title>Portifolio</title>
   </head>
   <body>
+    <nav id="navigation"></nav>
     <header class="wrapper">
+      <input id="menu-hamburguer" type="checkbox" />
+      <label for="menu-hamburguer">
+        <div class="menu">
+          <span class="hamburguer"></span>
+        </div>
+      </label>
       <div class="header-wrapper">
         <div class="header">
           <div class="JP"><img src="./assets/JP.png" alt="" /></div>
@@ -64,5 +72,8 @@
         </div>
       </div>
     </header>
+    <!-- ScrollReaveal Lib -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./main.js"></script>
   </body>
 </html>
