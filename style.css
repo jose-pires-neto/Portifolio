@@ -7,22 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Koulen&family=Open+Sans&display=swap');
 
 :root {
-
-  --hue: 190;
-  --primary-color: hsl(var(--hue), 100%, 26%);
-  --headline: hsl(210, 11%, 15%);
-  --paragraph: hsl(210, 9%, 31%);
-
-  --brand-beige: hsl(39, 100%, 97%);
-  --brand-light: hsl(calc(var(--hue) - 22), 23%, 89%);
-  --brand-light-2: hsl(calc(var(--hue) + 10), 14%, 97%);
-  --brand-dark: hsl(var(--hue), 100%, 14%);
-
-  --bg-light: hsl(180, 14%, 97%);
-
   font-size: 62.5%; /* 1rem = 10px */
-
-  --nav-height: 7.2rem;
 }
 
 html {
@@ -49,7 +34,7 @@ body {
 
 /*========   HEADER   =======*/
 .wrapper {
-  width: 37.5rem;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 
@@ -59,33 +44,8 @@ body {
   animation: backgroundTransition 10s ease-in-out infinite;
 }
 
-/*.header-wrapper {
-
-}*/
-
-div h1 h2 {
-  text-transform: uppercase;
-  letter-spacing: 4rem;
-}
-
-h1 {
-  font-size: 3.4rem;
-  line-height: 130%;
-  margin-left: 3rem;
-}
-
-h2 {
-  text-transform: uppercase;
-  letter-spacing: 4px;
-
-  font-size: 3rem;
-  line-height: 3.9rem;
-}
-
-p {
-  font-size: 2rem;
-  display: flex;
-  justify-content: center;
+.JP img {
+  width: min(50rem, 100%);
 }
 
 /* Likedin e Github */
@@ -106,6 +66,7 @@ p {
 .card-config {
   display: flex;
   margin-left: 3rem;
+  justify-content: center;
 }
 
 .card {
@@ -205,4 +166,3 @@ p {
     background-position: 0% 90%;
   }
 }
-

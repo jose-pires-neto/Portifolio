@@ -1,32 +1,31 @@
 .header .about {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 3rem;
-    display: block;
-  
-    border: #ffffff solid 2px;
-    backdrop-filter: blur(16px) saturate(200%);
-    -webkit-backdrop-filter: blur(16px) saturate(180%);
-    background-color: rgba(26, 62, 129, 0.75);
-    border-radius: 12px;
-    border: 2px solid rgba(255, 255, 255, 0.125);
-  
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-  
-  .header .about h3 {
-    justify-content: center;
-    align-items: center;
-  
-    margin-top: 2rem;
-  
-    display: flex;
-  }
-  
-  .header .about p {
-    margin-bottom: 1rem;
-    padding: 3rem;
-  }
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  display: block;
+
+  border: #ffffff solid 2px;
+  backdrop-filter: blur(16px) saturate(200%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(26, 62, 129, 0.75);
+  border-radius: 12px;
+  border: 2px solid rgba(255, 255, 255, 0.125);
+
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.header .about h3 {
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 2rem;
+
+  display: flex;
+}
+
+.header .about p {
+  margin-bottom: 1rem;
+  padding: 3rem;
+}
