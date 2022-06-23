@@ -44,10 +44,6 @@ body {
   animation: backgroundTransition 10s ease-in-out infinite;
 }
 
-.JP img {
-  width: min(50rem, 100%);
-}
-
 /* Likedin e Github */
 .social-media {
   width: 22rem;

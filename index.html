@@ -7,20 +7,26 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="menu.css" />
     <link rel="stylesheet" href="./skills.css" />
-    <link rel="stylesheet" href="./about.css">
-    <link rel="stylesheet" href="./check_box.css">
+    <link rel="stylesheet" href="./about.css" />
+    <link rel="stylesheet" href="./check_box.css" />
     <title>Portifolio</title>
   </head>
   <body>
-    <nav id="navigation"></nav>
-    <div class="footer">
-      <header class="wrapper">
-        <div class="header-wrapper">
-          <div class="header">
-            <div class="JP"><img src="./assets/JP.png" alt="">
+    <section class="wrapper">
+      <header>
+          <div class="header-wrapper">
+            <div class="JP">
+              <div class="content_img">
+                <img src="./assets/JP.png" alt="" />
+              </div>
+              <div class="content_text">
                 <h1>José Pires Oliveira</h1>
                 <p>Front-end Developer</p>
+              </div>
             </div>
+          </div>
+          <div class="header">
+              
             <div class="checkbox-container">
               <div class="checkbox-wrapper">
                 <input type="checkbox" id="toggle">
@@ -48,55 +54,59 @@
                 </nav>
               </div>
             </label>
-  
-            <div class="skills">
-              <h3>SKILLS</h3>
-              <div class="skill">
-                <div class="img_skill">
-                  <img id="HTML" src="./assets/HTML.png" alt="">
-                  <img src="./assets/CSS.png" alt="">
-                  <img src="./assets/JAVASCRIPT.png" alt="">
-                  <img id="React" src="./assets/React.png" alt="">
-                  <img id="FIGMA" src="./assets/Figma.png" alt="">
-                  <img id="Java" src="./assets/Java.png" alt="">    
-                </div>  
-              </div>
-            </div>
-          <div class="about">
-            <h3>ABOUT ME</h3>
-            <p>Hi, my name is José Pires. I've been a Front-end web developer for a short time, but I already have some projects completed. I study information systems, but my skills go beyond that.</p>
           </div>
-          <div class="card-config">
+        </div>
+      </header>
+      <main>
+        <div class="skills">
+          <h3>SKILLS</h3>
+          <div class="skill">
+            <div class="img_skill">
+              <img id="HTML" src="./assets/HTML.png" alt="">
+              <img src="./assets/CSS.png" alt="">
+              <img src="./assets/JAVASCRIPT.png" alt="">
+              <img id="React" src="./assets/React.png" alt="">
+              <img id="FIGMA" src="./assets/Figma.png" alt="">
+              <img id="Java" src="./assets/Java.png" alt="">    
+            </div>  
+          </div>
+        </div>
+      <div class="about">
+        <h3>ABOUT ME</h3>
+        <p>Hi, my name is José Pires. I've been a Front-end web developer for a short time, but I already have some projects completed. I study information systems, but my skills go beyond that.</p>
+      </div>
+      </main>
+      <div class="footer">
+        <div class="card-config">
+          <div class="social-media">
+            <a href="https://github.com/jose-pires-neto" target="_blank">
+              <div class="card">
+                <div class="card-wrapper">
+                  <h2>Github</h2>
+                  <p>MY PROJECTS</p>
+                </div>
+              </div>
+            </a>
+          </div>
+  
+          <div class="card_2">
             <div class="social-media">
-              <a href="https://github.com/jose-pires-neto" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/josé-pires-oliveira-a97430237/"
+                target="_blank"
+              >
                 <div class="card">
                   <div class="card-wrapper">
-                    <h2>Github</h2>
-                    <p>MY PROJECTS</p>
+                    <h2>Linkedin</h2>
+                    <p>SEE MY LINKEDIN</p>
                   </div>
                 </div>
               </a>
             </div>
-  
-            <div class="card_2">
-              <div class="social-media">
-                <a
-                  href="https://www.linkedin.com/in/josé-pires-oliveira-a97430237/"
-                  target="_blank"
-                >
-                  <div class="card">
-                    <div class="card-wrapper">
-                      <h2>Linkedin</h2>
-                      <p>SEE MY LINKEDIN</p>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
           </div>
-        </div>
-      </header>
-    </div>
+      </div>
+    </section>
     
+    </div>
   </body>
 </html>

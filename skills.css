@@ -28,9 +28,8 @@
   width: 8rem;
 
   margin-left: 2rem;
-  margin-right: 1rem;
 
-  border-left: #ffffff solid 2px;
+
   padding-left: 3rem;
 
   margin-top: 2rem;
@@ -40,36 +39,21 @@
 .skills .skill .img_skill #HTML {
   width: 8rem;
   height: 5rem;
-  padding: 0.4rem;
-
-  margin-left: 3.8rem;
-  padding-left: 3.4rem;
 }
 
 .skills .skill .img_skill #FIGMA {
-  width: 8rem;
+  width: 7rem;
   height: 5rem;
-  padding-left: 3.4rem;
 }
 
 .skills .skill .img_skill #React {
-  width: 9rem;
+  width: 8.5rem;
   height: 4.8rem;
-  border-left: none;
-  margin-right: 0.3rem;
-  margin-left: 2.6rem;
-  border-left: #ffffff solid;
-
-  padding-left: 3.4rem;
 }
 
 .skills .skill .img_skill #Java {
-  width: 12rem;
+  width: 9rem;
   height: 5rem;
-
-  border-right: #ffffff solid;
-
-  padding-right: 3.4rem;
 }
 
 .skill .skills p {

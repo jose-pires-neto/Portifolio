@@ -1,4 +1,4 @@
-.header .about {
+main .about {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,7 +16,7 @@
   margin-right: 1rem;
 }
 
-.header .about h3 {
+main .about h3 {
   justify-content: center;
   align-items: center;
 
@@ -25,7 +25,7 @@
   display: flex;
 }
 
-.header .about p {
+main .about p {
   margin-bottom: 1rem;
   padding: 3rem;
 }

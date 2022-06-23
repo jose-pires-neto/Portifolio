@@ -1,0 +1,28 @@
+.header-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.JP .content_img .content_text {
+  display: flex;
+  justify-content: center;
+}
+
+.header-wrapper .JP {
+  flex-wrap: wrap;
+  width: 35rem;
+  height: 40rem;
+  display: flex;
+  justify-content: center;
+}
+
+.JP .content_img img {
+  width: min(50rem, 100%);
+}
+
+header .content_text {
+  display: block;
+  text-align: center;
+
+  font-size: 2rem;
+}
